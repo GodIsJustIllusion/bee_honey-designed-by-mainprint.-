@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="/css/swiper-bundle.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Beehoney</title>
+</head>
+<body>
+    <header class="header">
+        <div class="lang">
+            <button onclick="myFunction()" class="lang_btn">РУС</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">РУС</a>
+              <a href="#">ENG</a>
+            </div>
+        </div>
+        <nav>
+            <a href="#">
+                <img src="image/logo_beehoney.png" alt="mainlogo">
+            </a>
+            <div class="header__block">
+                <input class="side-menu" type="checkbox" id="side-menu"/>
+                <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+                <div class="nav">
+                    <ul class="header__menu">
+                        <li><a href="#paseka" class="header__menu-item">наша пасека</a></li>
+                        <li><a href="#med" class="header__menu-item">наш мёд</a></li>
+                        <li><a href="#podarok" class="header__menu-item">подарочная упаковка</a></li>
+                        <li><a href="#contacts" class="header__menu-item">контакты</a></li>
+                    </ul>
+                </div>
+                <ul class="header__contacts">
+                    <ul>
+                        <li><a href="tel:+">+7 982 831-52-24, </a><a href="tel:+">+7 950 171-36-07</a></li>
+                    <li><a href="mailto:">sapaevnikolay@gmail.com</a></li>
+                    </ul>
+                    <li class="inst"><a href="https://" target="_blank" rel="noopener noreferrer">sapaevnikolai</a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="header__contacts-mobile">
+            <ul>
+                <li><a href="tel:+">+7 982 831-52-24, </a><a href="tel:+">+7 950 171-36-07</a></li>
+            <li><a href="mailto:">sapaevnikolay@gmail.com</a></li>
+            </ul>
+            <li class="inst"><a href="https://" target="_blank" rel="noopener noreferrer">sapaevnikolai</a></li>
+        </ul>
+        <h1 class="header__title container-fluid">премиум<br>мёд</h1>
+        <p class="header__subtitle container-fluid">Монофлёрная чистота и проверенное качество<br> Сделано в России</p>
+    </header>
+
+    <div class="slider__block container-fluid" id="paseka">
+        <div class="slider__block-content">
+            <div class="slider__block-content-top">
+                <h2 class="slider__block-content-title">наша пасека</h2>
+                <p class="slider__block-content-text">На востоке Русской равнины в междуречье Камы и её правого притока Вятки расположилась самобытная Удмуртия. Этот регион известен на весь мир перепечами,автоматом Калашникова и чистейшими родниками. Именно здесь, вдали от крупных городов, фабрик и промышленных предприятий находится наша пасека. Старательные пчёлы роизводят самый вкусный и полезный мёд.<br><br>Мы занимаемся пчеловодством уже более 15 лет и предлагаем вам уникальный сотовый мёд в индивидуальных деревянных рамках, мёд в баночках и мёд в крупной таре.<br><br>Каждый год мы засеваем окружающие пасеку поля различными медоносными растениями: донник, фацелия, клевер и другие. Это позволяет нам собрать редкие сорта мёда с целительными свойствами с выраженным вкусом и ароматом, а также увеличить производительность. Как итог, покупатель получает монофлёрный,  сортовой мёд высокого качества и чистоты, о чём свидетельствуют исследования в лабораториях Германии.<br><br>Мы уверены в качестве нашего мёда, попробуйте и вы!</p>
+            </div>
+            <div class="slider__block-content-bottom">
+                <img src="image/bottle.png" alt="" srcset="">
+                <p>Полезные свойства мёда мы сохраняем в специальной упаковке из фиолетового стекла чешского производителя «MIRON Violetglass». Оно защищает наш продукт от попадания солнечных лучей и ультрафиолета.</p>
+            </div>
+        </div>
+        <div class="nasha__paseka-slider swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="image/nasha_paseka/beehoney_nasha_nasha_paseka_01.jpg" alt="" srcset="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/nasha_paseka/beehoney_nasha_nasha_paseka_02.jpg" alt="" srcset="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/nasha_paseka/beehoney_nasha_nasha_paseka_03.jpg" alt="" srcset="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/nasha_paseka/beehoney_nasha_nasha_paseka_04.jpg" alt="" srcset="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/nasha_paseka/beehoney_nasha_nasha_paseka_05.jpg" alt="" srcset="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/nasha_paseka/beehoney_nasha_nasha_paseka_06.jpg" alt="" srcset="">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+    <div class="nash__med container-fluid" id="med">
+        <h2 class="nash__med-title">наш мёд</h2>
+        <h3 class="nash__med-subtitle">Сотовый мёд</h3>
+        <p class="nash__med-describe">Это уникальный продукт, сделанный самой природой. 
+            Все начинается со стартовой полоски из натурального 
+            воска, она закрепляется на верхнем крае деревянной рамки. 
+            Тут пчёлы начинают строить сот. Далее они заливают его мёдом 
+            и закупоривают восковой крышечкой. И мы получаем продукт, 
+            который в полной мере позволяет насладиться вкусом мёда 
+            природной чистоты.</p>
+        <p class="nash__med-price">Цена на мёд зависит от сезона 
+            и урожайности года. Актуальную цену можно узнать<br>
+            по телефону: <span>+7 982 831-52-24, +7 950 171-36-07</span><br>
+            или по почте: <span>sapaevnikolay@gmail.com</span></p>
+        <div class="nash__med-package">
+            <p>Большая упаковка<br> 
+            Объём: <span>500–850 г.</span></p>
+            <p>Маленькая упаковка<br> 
+            Объём: <span>170–280 г.</span></p>
+        </div>
+    </div>
+
+    <div class="med__mironglass container-fluid">
+        <h3 class="med__mironglass-title">Мёд в банках из фиолетового стекла «MIRON Violetglass»</h3>
+        <p>Уникальное стекло «MIRON Violetglass» работает как фильтр, для защиты от солнечных лучей и ультрафиолета.<br>Гарантирует сохранение полезных свойств мёда.</p>
+        <div class="med__mironglass-grid">
+            <div class="med__mironglass-grid-item">
+                <img src="image/med/koriandr_honey.png" alt="">
+                <div class="med__mironglass-grid-item-text">
+                    <p class="med__mironglass-grid-item-title">Кориандровый мёд</p>
+                    <p class="med__mironglass-grid-item-describe">Содержит эфирные масла. Имеет несколько специфический пряный, приятный аромат с явно ощутимым привкусом карамели.</p>
+                    <p><span>Объём:</span> 150, 350 г</p>
+                </div>
+            </div>
+            <div class="med__mironglass-grid-item">
+                <img src="image/med/podsonech_honey.png" alt="">
+                <div class="med__mironglass-grid-item-text">
+                    <p class="med__mironglass-grid-item-title">Подсолнечниковый мёд</p>
+                    <p class="med__mironglass-grid-item-describe">Очень сладкий, с легким фруктовым и цветочным привкусом.</p>
+                    <p><span>Объём:</span> 150, 350 г</p>
+                </div>
+            </div>
+            <div class="med__mironglass-grid-item">
+                <img src="image/med/akaciya_honey.png" alt="">
+                <div class="med__mironglass-grid-item-text">
+                    <p class="med__mironglass-grid-item-title">Акациевый мёд</p>
+                    <p class="med__mironglass-grid-item-describe">Один из самых изысканных и нежных сортов мёда. Душистый аромат напоминает о запахе цветка акации.</p>
+                    <p><span>Объём:</span> 150, 350 г</p>
+                </div>
+            </div>
+            <div class="med__mironglass-grid-item">
+                <img src="image/med/faceliev_honey.png" alt="">
+                <div class="med__mironglass-grid-item-text">
+                    <p class="med__mironglass-grid-item-title">Фацелиевый мёд</p>
+                    <p class="med__mironglass-grid-item-describe">Интенсивный, цветочный, слегка терпкий и пьянящий аромат. Вкус нежный и тонкий, слегка пряный, сладкий, но без излишней приторности.</p>
+                    <p><span>Объём:</span> 150, 350 г</p>
+                </div>
+            </div>
+            <div class="med__mironglass-grid-item">
+                <img src="image/med/donnik_honey.png" alt="">
+                <div class="med__mironglass-grid-item-text">
+                    <p class="med__mironglass-grid-item-title">Донниковый мёд</p>
+                    <p class="med__mironglass-grid-item-describe">Тонкий ванильный аромат и нежный сладкий вкус.</p>
+                    <p><span>Объём:</span> 150, 350 г</p>
+                </div>
+            </div>
+            <div class="med__mironglass-grid-item">
+                <img src="image/med/lugovoi_honey.png" alt="">
+                <div class="med__mironglass-grid-item-text">
+                    <p class="med__mironglass-grid-item-title">Мёд луговых трав</p>
+                    <p class="med__mironglass-grid-item-describe">Сладкий, имеет выраженный цветочный аромат и фруктовые нотки вкуса, может быть легкий, едва заметный ореховый привкус.</p>
+                    <p><span>Объём:</span> 150, 350 г</p>
+                </div>
+            </div>
+        </div>
+        <div class="med__mironglass-addpackage">
+            <h3 class="med__mironglass-addpackage-title">Другие виды <br>упаковки</h3>
+            <div class="med__mironglass-addpackage-glass">
+                <img src="image/glass_bottle.png" alt="" srcset="">
+                <div class="med__mironglass-addpackage-glass-describe">
+                    <p>Мёд в стеклянной банке</p>
+                    <p><span>Объём: </span><br>250, 350, 500 г</p>
+                </div>
+            </div>
+            <div class="med__mironglass-addpackage-opt">
+                <img src="image/opt_bottle.png" alt="" srcset="">
+                <div class="med__mironglass-addpackage-opt-describe">
+                    <p>Мёд в оптовой таре</p>
+                    <p><span>Объём: </span><br>42–45 кг</p>
+                </div>
+            </div>
+            <p class="nash__med-price">Цена на мёд зависит от сезона 
+                и урожайности года. Актуальную цену можно узнать 
+                по телефону: <span>+7 982 831-52-24, +7 950 171-36-07</span><br>
+                или по почте: <span>sapaevnikolay@gmail.com</span></p>
+        </div>
+    </div>
+
+    <div class="slider__block container-fluid gift__package" id="podarok">
+        <div class="slider__block-content gift__package-content">
+            <div class="slider__block-content-top">
+                <h2 class="slider__block-content-title">подарочная упаковка</h2>
+                <p class="slider__block-content-text">Что подарить дорогому человеку или гостю? С этим вопросом мы сталкиваемся несколько раз в год. Подарите то, что создано природой.<br><br>Мы подготовили для вас подарочную упаковку с 2-мя, 3-мя или 5-ю видами мёда. В каждой баночке аромат лета, любовь и забота. Ваш подарок по достоинству оценят  друзья, сотрудники и партнеры.<br><br>В особенных случаях мы сделаем персональный дизайн подарочной упаковки, с вашим индивидуальным текстом и/или логотипом.</p>
+            </div>
+            <div class="slider__block-content-bottom">
+                <h4 class="gift__package-content-title">Виды упавковки</h4>
+                <ul class="gift__package-content-types">
+                    <li><p><span>Два вида мёда</span><br>в MIRON Violetglass по 350 г</p></li>
+                    <li><p><span>Три вида мёда</span><br>в MIRON Violetglass по 150 г</p></li>
+                    <li><p><span>Пять видов мёда</span><br>в MIRON Violetglass по 150 г</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="nasha__paseka-slider swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="image/upakovka/beehoney_nasha_podarochnaya_upakovka_01.jpg" alt="" srcset="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/upakovka/beehoney_nasha_podarochnaya_upakovka_02.jpg" alt="" srcset="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/upakovka/beehoney_nasha_podarochnaya_upakovka_03.jpg" alt="" srcset="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/upakovka/beehoney_nasha_podarochnaya_upakovka_04.jpg" alt="" srcset="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/upakovka/beehoney_nasha_podarochnaya_upakovka_05.jpg" alt="" srcset="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/upakovka/beehoney_nasha_podarochnaya_upakovka_06.jpg" alt="" srcset="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="image/upakovka/beehoney_nasha_podarochnaya_upakovka_07.jpg" alt="" srcset="">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+    <footer class="footer container-fluid" id="contacts">
+        <h2 class="footer__title">контакты</h2>
+        <div class="footer__block">
+            <div class="footer__block-contacts">
+                <p>Адрес: 427915, Удмуртская Республика, Россия,<br>село Вятское, ул. Молодёжная д. 5</p>
+                <p>Телефон: +7 982 831-52-24, +7 950 171-36-07,<br>эл. почта: <span class="blue_text">sapaevnikolay@gmail.com</span></p>
+                <a href="https://" target="_blank" rel="noopener noreferrer">sapaevnikolai</a>
+            </div>
+            <div class="footer__block-text">
+                <p>Наши партнеры: Ряд компаний и фирм в Швейцарской Конфедерации. Сотовый мёд продаётся на полках сети магазинов <span class="blue_text">«Globus Delicatessa AG»</span>, <span class="blue_text">в частном магазине Маркуса Андреса</span>, а также его можно попробовать на завтрак в сети отелей <span class="blue_text">«Manz Privacy Hotels»</span> (Hotel St. Gotthard Zurich). Сортовой мёд распространяют компании <span class="blue_text">«Bee Family AG»</span> и наши главные партнёры из фирмы «Geba Plast AG Schaffhausen».</p>
+            </div>
+        </div>
+        <div class="mainprint">
+            <p>© Beehoney, 2021</p>
+            <a href="https://mainprint.ru" target="_blank" rel="noopener noreferrer">Создано в mainprint.</a>
+        </div>
+    </footer>
+
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
